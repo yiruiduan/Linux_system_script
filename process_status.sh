@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 #descirbe:view status process
 #auth:Both
-#set -e
+set -e
 set +x
 status_list=("R" "Z" "D" "I" "S" "T")
 if [ $# -lt 1 ];then
