@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 #descirbe:view status process
 #auth:Both
+#test commit
 #set -e
 set +x
 status_list=("R" "Z" "D" "I" "S" "T")
